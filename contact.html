@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contact to isac</title>
+  <title>Contact to pepe</title>
   <meta name="description" content="All I want to show to the world will be here in the future.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="Contact to isac">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="pepe.info">
+  <meta property="og:url" content="isac.info">
   <meta property="og:image" content="img/portrait.jpg">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -18,7 +18,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="manifest" href="site.webmanifest">
@@ -28,28 +28,26 @@
 <body>
 
   <header>
-    <h1>Here is the way to contact pepe.</h1>
+    <h1>Here is the way to contact Isac.</h1>
   </header>
-
-  <div id="wrapper" class="flex three-600">
-    <aside class="third-600 full">
-      <a href="index.html">Home page</a>
-      <a href="mailto:xceri012@studenti.czu.cz">Email me.</a>
-    </aside>
-    <main class="full two-third-600">
-      <form>
-          <label>
-              message
-              <textarea placeholder="Text of message for isac" name="message" onkeyup="enableBtn()"></textarea>
-          </label>
-          <label>
-              nick
-              <input placeholder="Isacsa14" name="" type="text"  onkeyup="enableBtn()" />
-          </label>
-          <button disabled="disabled" id="post-btn">Post</button>
-      </form>
-    </main>  
-  </div>
+  <aside>
+    <a href="index.html">Home page</a>
+  </aside>
+  <main>
+    <a href="mailto:xceri012@studenti.czu.cz">Email me.</a>
+    <form>
+        <label>
+            message
+            <textarea name="message"></textarea>
+        </label>
+        <label>
+            nick
+            <input name="nick" type="text"/>
+        </label>
+        <button>Post</button>
+    </form>
+  </main>
+  <script src="js/vendor/modernizr-3.11.8.min.js"></script>
   <script src="js/app.js"></script>
 
 </body>
