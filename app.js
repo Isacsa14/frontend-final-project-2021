@@ -1,3 +1,4 @@
+//javascript documment
 function enableBtn() {
     var nl = document.getElementsByName("nick")[0].value.length;
     var ml = document.getElementsByName("message")[0].value.length;
